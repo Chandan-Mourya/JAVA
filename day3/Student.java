@@ -19,12 +19,13 @@ public class Student {
 			s1.marks=96;
 			s1.displayStudentDetails();
 			
-			s1.roll=2;
-			s1.name="Chandan";
-			s1.marks=90;
-			s1.displayStudentDetails();
+			Student s2=new Student();
+			s2.roll=2;
+			s2.name="Chandan";
+			s2.marks=90;
+			s2.displayStudentDetails();
 			
-			s1=null;
+			s2=null;
 			
 	}
 
