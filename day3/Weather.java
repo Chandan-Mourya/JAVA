@@ -7,7 +7,7 @@ public class Weather {
 		
 		boolean isSnowing =false;
 		boolean isRaining =true;
-		double temprature=60;
+		double temprature=65;
 		
 		if(isSnowing) {
 			System.out.println("its Snowing");
@@ -19,7 +19,7 @@ public class Weather {
 			System.out.println(" Below 10 degrees Celsius");
 		}
 		else {
-			System.out.println("Let’s go out!");
+			System.out.println("Letâ€™s go out!");
 		}
 	}
 
