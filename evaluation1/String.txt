@@ -1,0 +1,10 @@
+Strings are immutable in java because of the its concurrancde and class loading.
+we can define strings in "" in java ;
+strings are immutable in java ;
+String builders are used to represent the mutable strings;
+using String builder we can do any changes in string;
+it will hepls to reduce memory size.
+Strings objects are immutable but String Builders is the mutable String Typoe .
+String builder have default capacity of String 16 cahracter.
+we can use the string builders where we have to do changes of modify the string at all that places insted of 
+Strings we can use stringBuilders
