@@ -1,0 +1,12 @@
+ClassCastException is a runtime exception raised in Java when we try to improperly cast a class from one type to another. 
+It's thrown to indicate that the code has attempted to cast an object to a related class,
+out of which it is not an instance.
+To prevent the ClassCastException exception, one should becareful when casting objects
+to a specific class or interface and ensure that the target type is a child of the source type,
+and that the actual object is an instance of that type
+ClassCastException is one of the unchecked exception in Java. It can occur in our program when we
+tried to convert an object of one class type into an object of another class type
+EXAMPLE
+String[] strArray = new String[] { "John", "Snow" };
+ArrayList<String> strList = (ArrayList<String>) Arrays.asList(strArray);
+System.out.println("String list: " + strList);

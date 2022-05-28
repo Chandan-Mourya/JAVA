@@ -1,0 +1,10 @@
+Dynamic polymorphism is a process or mechanism in which a call to an overridden method 
+is to resolve at runtime rather than compile-time. It is also known as runtime polymorphism 
+or dynamic method dispatch. We can achieve dynamic polymorphism by using the method overriding.
+
+No! Declaration of static methods having the same signature can be done in the subclass 
+but run time polymorphism can not take place in such cases.
+Overriding or dynamic polymorphism occurs during the runtime, but the static methods are 
+loaded and looked up at the compile time statically. Hence, these methods cant be overridden.
+
+Static = class = no runtime polymorphism
