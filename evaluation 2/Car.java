@@ -40,7 +40,7 @@ class HatchBack extends Car{
 	}
 	public int calculateBill(int km) {
 		int fare=km*farePerKm;
-	//	System.out.println(car.getNumberOfKms());
+	
 		System.out.println("Fare is: "+fare);
 		return fare;
 	}
