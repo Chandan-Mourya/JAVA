@@ -14,4 +14,12 @@ in such case Student has an entity refrence address, so relationship is Employee
 and the address object contains its own information such as city, state, pincode, etc. in such relationship is A HAS-A relationship address.
 
 IS -A Relationship>>
-if a class parrot inherits another class Bird then we can say that parrot is a bulb having is a relationship with bird.
+if a class Animal inherits another class Fish,dog then we can say that Dog is a bulb having is a relationship with bird.
+public class Animal {
+}
+public class fish extends Animal {
+}
+public class Reptile extends Animal {
+}
+public class Dog extends Mammal {
+}
