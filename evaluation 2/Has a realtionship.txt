@@ -1,0 +1,17 @@
+if a class have an entity refrence. it is known as Aggregation . Aggregation represents HAS-A relationship.
+Consider a situtaion, Employee or Student contains many information such as id, name , email , marks , salary etc,
+it contains one more object named address, which contains own information such as city, state, country , zipcode, etc.
+Example:
+class Student{
+int id;
+String name;
+Address add;  //add is a class
+
+//methods and all oters 
+}
+
+in such case Student has an entity refrence address, so relationship is Employee HAS-A address;
+and the address object contains its own information such as city, state, pincode, etc. in such relationship is A HAS-A relationship address.
+
+IS -A Relationship>>
+if a class parrot inherits another class Bird then we can say that parrot is a bulb having is a relationship with bird.
