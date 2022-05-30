@@ -85,6 +85,6 @@ class Demo{
 //		}for(Student i:s) {
 //			i.displaydetails();
 //		}
-		//System.out.println("hallo");
+		//System.out.println("hallo")
 	}
 }
