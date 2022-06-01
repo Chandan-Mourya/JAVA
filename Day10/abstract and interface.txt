@@ -1,0 +1,49 @@
+Abstract Class:-
+Abstract class can have acstract and non abstract method.
+Abstract class doesnt support multiple inheritance.
+it can have final,non-final,static,and non-static variables.
+it can provide the inplementation of interface.
+the abstract keyword is used to declare abstract class.
+abstrat class can have class members like private, protected/
+Examples:
+	public abstract class Shape{
+public abstract void draw();
+}
+
+
+Interface:-
+
+interface can have only abstract methods. 
+Since java 8, it can have /default and static method also.
+interface supports multiple inheritance.
+interface has only static and final variable,
+interface cant provide the implementation of abstract class.
+the interface keyword is used to declare intrface.
+An interface can extend another java interface only.
+Members of java interface are public by Default.
+Exapmle:
+	public interface Drawable{
+	void draw();
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
