@@ -43,7 +43,7 @@ class Demo{
 		
 		if(!Pattern.matches("[6-9]{1}\\d{9}", mobile)) return false;
 		
-		if(!Pattern.matches("[^0-9a-zA-Z]{3,8}+@gmail.com", Email)) return false;
+		if(!Pattern.matches([A-Za-z0-9]+@[A-Za-z0-9]", email)) return false;
 		
 		return true;
 	}
