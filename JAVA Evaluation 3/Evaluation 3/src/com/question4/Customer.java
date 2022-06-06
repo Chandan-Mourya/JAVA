@@ -37,11 +37,11 @@ public class Customer {
 
 class Demo{
 	public boolean validate(String username, String Password, String Email, String mobile) {
-		if(!Pattern.matches("[a-zA-Z]{3,8}", username)) return false;
+		if(!Pattern.matches("[A-Za-z0-9] {3,8}", username)) return false;
 		
-		if(!Pattern.matches("[^0-9a-zA-Z]{3,8}", Password)) return false;
+		if(!Pattern.matches("[A-Za-z0-9] {3,8}", password)) return false;
 		
-		if(!Pattern.matches("[6-9]{1}\\d{9}", mobile)) return false;
+		if(!Pattern.matches(("[6789]{1}[]0-9 {9}", mobile)) return false;
 		
 		if(!Pattern.matches([A-Za-z0-9]+@[A-Za-z0-9]", email)) return false;
 		
