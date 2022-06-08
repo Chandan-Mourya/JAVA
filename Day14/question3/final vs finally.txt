@@ -1,0 +1,18 @@
+		final					finally
+defination: final is the keyword and 		finally is the block in java Exception handling
+access modifier which is used to apply		 to execute the important code whether the exception 
+restrictions on a class,			occures or not.
+method or Variable.
+
+Appliction: final keyword is used with		fianally block is always related to try and catch block 
+the classes, methods and variables.		in Exception Handling.
+
+Functionality: Once Declared, final variable 	1)finally block runs the important code even if
+becomes constant and cannot be modified		  Exception occours or not.
+b) final method cannot be overridden by 	2)finally block cleans up all the resources used in
+sub class.					try block.
+c)final class cannot be inherit.
+
+Exception: final method is executed only	finally block isexecuted as soon as the try catch
+when we call it.				block is executed.
+						its execution is not depends on the Exception.
