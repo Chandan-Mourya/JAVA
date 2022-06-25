@@ -1,0 +1,14 @@
+File and IO-stream Assignment
+
+Write a program to read the content from the abc.txt file using BufferedReader.
+
+Write a program to read the content of the file abc.txt using FileReader.
+
+File : Count Character Write a program to count the number of times a character appears in the File. (Case insensitive... 'a' and 'A' are considered to be the same)
+	Sample Input:
+ Enter the file name
+ Input.txt
+ Enter the character to be counted
+ r 
+Output
+File 'Input.txt' has 99 instances of letter 'r'.
