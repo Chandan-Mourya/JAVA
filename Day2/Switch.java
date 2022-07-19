@@ -1,31 +1,33 @@
 package com.chandan;
+import java.util.Scanner;
 
-public class Switch {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub.
-		String city="Delhi";
-		switch(city)
-		{
+public class City {
+	
+	public static void findCapital(String city) {
+		switch (city) {
 		case "Mumbai":
-			System.out.println("Mumbai");
-			break;
-		case "Kolkata":
-			System.out.println("Kolkata");
+			System.out.println("Financial City");
+		
 			break;
 		case "Delhi":
-			System.out.println("Delhi");
+			System.out.println("Capital of Country");
 			break;
-		case "Bangalore":
-			System.out.println("Bangalore");
-			break;
+		case "Kolkatak":
+			System.out.println("City of Joy");
+
 		default:
-			System.out.println("May be Other Indian City");
+			System.out.println("May be another City");
 			break;
 		}
-		
-		
-	
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		City c=new City();
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter City Name");
+		String city=sc.next();
+		findCapital(city);
 	}
 
 }
