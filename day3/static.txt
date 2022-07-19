@@ -35,6 +35,7 @@ class demo{
   int a=10 // this is non static variable as well global variables
 
     public static void main(String[] args){
-       System.out.println("Value of a : " +a); // here we are calling our non static variable 
+    demo d=new demo();
+       System.out.println("Value of a : " +d.a); // here we are calling our non static variable 
     }
 }
