@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="s1" class="com.masai.Student">  
+       <constructor-arg name="roll" value="101"/>
+       <constructor-arg name="name" value="Chandan"/>
+       <constructor-arg name="marks" value="830"/>   
+    </bean>
+	<bean id="s2" class="com.masai.Student">  
+       <constructor-arg name="roll" value="102"/>
+       <constructor-arg name="name" value="Shubham"/>
+       <constructor-arg name="marks" value="780"/>   
+    </bean>
+    <bean id="s3" class="com.masai.Student">  
+       <constructor-arg name="roll" value="103"/>
+       <constructor-arg name="name" value="Vijay"/>
+       <constructor-arg name="marks" value="700"/>   
+    </bean>
+    <bean id="s4" class="com.masai.Student">  
+       <constructor-arg name="roll" value="104"/>
+       <constructor-arg name="name" value="Sagar"/>
+       <constructor-arg name="marks" value="680"/>   
+    </bean>
+    <bean id="s5" class="com.masai.Student">  
+       <constructor-arg name="roll" value="105"/>
+       <constructor-arg name="name" value="Mausam"/>
+       <constructor-arg name="marks" value="600"/>   
+    </bean>
+    
+	<bean id="c" class="com.masai.Cities" >
+	
+	<property name="map">
+	<map>
+		<entry key-ref="s1" value="Mumbai"/>
+		<entry key-ref="s2" value="kolktta"/>
+		<entry key-ref="s3" value="Bihar"/>
+		<entry key-ref="s4" value="vasai"/>
+		<entry key-ref="s3" value="Odisa"/>
+	
+	</map>
+		
+	</property>
+	</bean>
+	
+</beans>
