@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	
+	<bean id="cal" class="com.masai.Calculator" />
+	
+	<bean id="sb" class="com.masai.ServiceBean" >
+		<property name="calc" ref="cal" />
+		<property name="a" value="10" />
+		<property name="b" value="20" />
+		
+	</bean>
+	<bean id="pb" class="com.masai.PresentationBean">
+		<property name="service" ref="sb" />
+	</bean>
+</beans>
