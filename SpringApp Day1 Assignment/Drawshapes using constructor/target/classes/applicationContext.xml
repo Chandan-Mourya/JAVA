@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="tr" class="com.chandan.Trinagle" />
+    <bean id="cr" class="com.chandan.Circle" />
+    <bean id="cy" class="com.chandan.Cylinder" />
+    
+    <bean id="r" class="com.chandan.Runner">
+    
+  <!--  <property name="d" ref="tr"/> -->
+  <constructor-arg ref="tr"/>
+  
+    </bean>
+    
+    
+        <!-- collaborators and configuration for this bean go here -->
+    
+
+    
+
+</beans>
