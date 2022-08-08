@@ -1,0 +1,24 @@
+1)SOAP-based WebServices:
+it is an xml based protocol to communicate  betwen the clients applications to the server application, since it  is XML based, it is platform-independent and language independent.
+--Creating a Web service using SOAP are heavyweight application because apart from creating the main service classes there is a need to create some extra binding to pars the XML and convert them in java objcets and viceversa moprever to expose and conxume the SOAP-based services we need to generate some extra xml file (WSDL file)
+----WSDL file (it is also xml file in which we describe all the services which we expose to the client)
+
+Restful Webservices:
+REST- stands for Representational State transfer.
+--this Rest architectural style tells that create a web services with the required operation and expose them through the HTTP protocol. and allow them to be accessed by the client with the help of http protocol only without binding classes and any xml files.
+
+Based on this architectural style sun-microsystem has released JAX-RS API for creating.
+--
+it does not define the standard  message exange formate. we can build REST services with both XML and JSON. JSON is the more popular formate with REST. the key abstraction is a resource in REST. A resource can be anything . it can be anything, it can be accessed through a Uniform Resiurce identifier (URI).
+
+GET: reads a resiurce
+POST: updates an Existing resource
+DELETE: creates a new resource.
+PUT: deletes the resource.
+
+it also have some standard codes 
+404: Resource not found'
+200: Success
+201: Created
+401: Unauthorized
+500: Server Error

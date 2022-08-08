@@ -1,0 +1,17 @@
+Lazy and Eager are two types of data loading stratigies in ORMS such as hibernate and eclipse link.
+these data loading stratigies we used when one entity class is having refrences to other Entities like Employee and Phone 
+
+Lazy Loading:- Associated data loads only when we explicit call getter otr size method.
+-use lazy loading when you are using one to many collections,
+--use lazy loading when you are sure that you are not using releted entities.
+its initial load time is much smaller than Eager  loading
+it can be enabled by using the annotation 
+fetch=FetchType.LAZY
+
+Eager Loading:- data loading happens at the time of their parent s fetched.
+--Use Eager Loading when the relations are not too much. Thus Eager loading is a good practice to reduce the further queries on the server.
+--use eager Loading when you are sure that you will be using releted entities with the main entity everywhere.
+it initial load time much unnecessory data might impact performance.
+--it can be enabled by using the annotation 
+fetch=FetchType.EAGER
+ 

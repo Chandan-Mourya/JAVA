@@ -1,0 +1,15 @@
+Both annotations @RequestParam and @PathVariable in Spring MVC are used for fetching the values of request 
+parameters. these annotations have similar purpose but some differences also have.
+
+@RequestParam:
+it is used to get the request parameters @RequestParam automatically binds the request parameters to the arguments of yorur handler method, it is also provides auto type conversion for some standard type like int, float, String, data etc.
+---defaultValue:-- it is String type attribute and the default value to use as a fallback when the request parameter is not provided or hs an emprty value.
+---name:-it is string type attribut and name of the request parameter to bind to.
+---requird :- it iss boolean type attribute wheather the parameter is required.
+---value:- it is the String type attribute and it is alias for name attibute.
+
+@PathVariable:--
+it is used to pass parameter along with the url, sometimes we need to pass parameters along with the url to get the data Spring mvc provides support for customize the URL in order to get data.
+value:-- it is string type attribute and it is only one attribute of the @PathVariable annotation,
+---it is allowed to use the multiple @PathVariable annotations in singe method.
+but ensure that no more than one method has the same pattern.

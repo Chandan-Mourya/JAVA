@@ -1,0 +1,10 @@
+The @Autowired Annotation marks a constructor, setrer method, properties and config() method as to be autowired that is injection beans (Objects) at runtime by Spring Dependency injection mechanism.
+Spring beans can be declared either by java configuration or XML configuraion.
+by declearing beans you provide metadata to the spring container to return the required dependency object at runtime this is called Spring Bean Autowiring in java based annotations.
+at runtime Spring will provide bean definations by reading those methodds. using @Autowired the right dependency is assigned by the Spring Container.
+The modes of autowiring are:
+--no means the autowiring id OFF
+--byName: will look for a bean named exactly the same as the property that needs to be autowired.
+--byType:- permits a property to be autowired if there is exactly one bean of the property type in the container .
+--constructor:-- is equivalent to byType but operates to constructor arguments.
+--Autodetect ;-has been deprecated

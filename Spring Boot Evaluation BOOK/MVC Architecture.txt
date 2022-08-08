@@ -1,0 +1,12 @@
+Model View Controller pr MVC as it is popularly called, is a software design pattern for developing web applications, A model View controller pattern is made uo pf the following three parts-
+
+Model:- The lowest level of the pattern which is a responsible for maintaing data
+---model is Responsible for managing the data of the application. it responds to the request to fromm the view and it also responds to instructions from the controller to update itself.
+
+View:- This is Responsible for desplaying all or a portion of the data to the user.
+--it means presentation of data in a particular formate, triggered by a controller's decision to present the data . they are script- based templating systems, like JSP  and very easy to integreate with AJAX.
+
+Controller: Software code that controls the intercations between the model and view.
+--The Contrroller is Responsible for responding to the user input and perform intercations on the data model objects. the controller receives the input, it validate the input and then performs the business operation that modifies the state the data model.
+
+MVC is popular as it isolates the application logic from the interface layer and supports sepration of concerns. here the controller receives all requests for the application and then works with the model to prepare any data needed by the View. The View then uses the data prepared byb the controller to generates a final presentable responce.
